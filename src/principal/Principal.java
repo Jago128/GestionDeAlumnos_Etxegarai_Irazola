@@ -1,4 +1,4 @@
-package principal;
+package principal;	
 import clases.Menu;
 
 public class Principal {
