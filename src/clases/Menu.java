@@ -9,7 +9,8 @@ public class Menu {
         System.out.println("3. Salir");
     }
     
-    public void procesarOpcion(int opcion) {
+    @SuppressWarnings("null")
+	public void procesarOpcion(int opcion) {
         IOpcionMenu opcionMenu = null;
         
         switch(opcion) {
