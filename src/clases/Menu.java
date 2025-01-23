@@ -10,7 +10,7 @@ public class Menu {
     }
     
     public void procesarOpcion(int opcion) {
-        IOpcionMenu opcionMenu;
+        IOpcionMenu opcionMenu = null;
         
         switch(opcion) {
             case 1:
